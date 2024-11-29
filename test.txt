@@ -7,7 +7,7 @@ Command: git status
 Usage: to see the current local repo's changes.
 
 Command: git log 
-Usage: to view all commits history with their IDs.
+Usage: to view all commits history with their IDs. You may press `q` when you want to go back to console. 
 
 Command: git add <filename.ext>
 Usage: to add <filename.ext> to the local repo's staging DB.
