@@ -24,3 +24,23 @@ Usage: to revert a commit by ID. Get the commit ID by `git log` command, then co
 Command: git reset --hard <commit ID> 
 Usage: to reset the code to a particular stage in history, making HEAD become <commit ID>. Undoing all the history until <commit ID> code version. 
 
+Command: git branch 
+Usage: shows current/active branch
+
+Command git branch <branch_name> 
+Usage: creates <branch_name> as a new branch
+
+Command: git checkout <branch_name>
+Usage: switches to <branch_name> as current/active branch
+
+Command: git checkout -b <branch_name>
+Usage: creates and switches to <branch_name> at the same time. 
+
+Command: git merge <branch_name>
+Usage: to merge <branch_name> into current/active branch. NB: this usually done while in `main` branch to merge changes from sub branches. You should be in `main` while merging. When the vim console opens, type `:wq` and [Enter] to exit. 
+
+Command: git branch -d <branch_name> 
+Usage: to delete a branch. NB: You should be out of the branch you want to delete, so checkout to main branch to delete a sub branch.
+
+File: .ignore 
+Usage: to ignore certain files/filetypes to commits. 
