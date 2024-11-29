@@ -15,3 +15,12 @@ Usage: to add <filename.ext> to the local repo's staging DB.
 Command: git restore --staged <filename.ext>
 Usage: to undo/remove the <filename.ext> from staging DB. 
 
+Command: git checkout -- <filename.ext> 
+Usage: to undo the last unstaged file(s) changes in <filename.ext>.
+
+Command: git revert -n <commit ID>
+Usage: to revert a commit by ID. Get the commit ID by `git log` command, then copy the ID next to 'commit'. You may need to commit again to effect the uncommit. 
+
+Command: git reset --hard <commit ID> 
+Usage: to reset the code to a particular stage in history, making HEAD become <commit ID>. Undoing all the history until <commit ID> code version. 
+
