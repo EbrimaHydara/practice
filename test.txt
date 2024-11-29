@@ -1,0 +1,17 @@
+Git Basic Commands:
+
+Command: git clone [Git Repo URL]
+Usage: to copy a git repo from GitHub to local machine's git repo. 
+
+Command: git status
+Usage: to see the current local repo's changes.
+
+Command: git log 
+Usage: to view all commits history with their IDs.
+
+Command: git add <filename.ext>
+Usage: to add <filename.ext> to the local repo's staging DB.
+
+Command: git restore --staged <filename.ext>
+Usage: to undo/remove the <filename.ext> from staging DB. 
+
